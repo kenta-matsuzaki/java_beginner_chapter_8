@@ -17,8 +17,7 @@ public class Hero {
   void slip(){
     this.hp -= 5;
     System.out.println(this.name + "は転んだ！");
-    System.out.println("GAMEOVER");
-    System.out.println("最終HPは" + this.hp + "でした");
+    System.out.println("5のダメージ！");
   }
 
   void run(){
